@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .heading_style{
+    padding: 30px 0;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+    font-size: 1.5rem;
+  }
+  .cards{
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin: 25px;
+    border: 1px solid rgba(143, 155, 160, 0.493);
+    width: 21%;
+    background-color: rgba(227, 231, 253, 0.555);
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 13px 10px -7px rgba(244, 248, 253, 0.877);
+    
+}
+  .card_img{
+    width: 30%;
+    height: 120px;
+    margin: 20px;
+  }
+  .card_info{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+     background-color: rgb(252, 252, 247); 
+  
+  }
+  .card_category{
+   text-align: left;
+   color: #868686;
+   margin-left: -160px;
+   margin-top: 0px;
+   font-size: 12px;
+  }
+  .card_price{
+      text-align: left;
+      margin-top: 3px;
+  }
+  .card_title{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: 200;
+    
+  }
+  button{
+    padding: 9px 4px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid rgba(143, 155, 160, 0.493);
+    cursor: pointer;
+    justify-content: space-between;
+    margin:10px
+  }
+  .button-cart{
+      background-color: rgba(94, 2, 2, 0.945);
+      color:white;
+      border-radius: 3px;
+    margin-right: 30px;
+      
+  }
+  .button-wishlist{
+      border-radius: 3px;
+      color:black;
+  }
